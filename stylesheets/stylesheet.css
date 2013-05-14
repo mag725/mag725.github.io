@@ -251,6 +251,42 @@ a:focus {
 }
 
 
+/*
+  why us?
+*/
+
+.why-us-section{
+  color: #4d4d4d;
+  font-family: "kepler-std-subhead",serif;
+  margin-left:120px;
+  margin-right:120px;
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+
+.why-us-section-title{
+    font-size: 70px;
+    line-height: 60px;
+}
+
+.why-us-section-title-emphasis{
+  font-family: "atrament-web",sans-serif;
+  color: #73cf3b;
+}
+
+.why-us-section-number{
+  z-index: -1000;
+  color: #e6e6e6;
+  font-size: 120px;
+}
+
+.why-us-section-content{
+  padding:75px;
+  color: #4d4d4d;
+  font-family: "kepler-std-subhead",serif;
+  font-size: 35px;
+}
+
 
 
 
