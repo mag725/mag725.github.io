@@ -55,9 +55,6 @@ a:focus {
   styles
 *******************************/
 
-body{
-  width:100%;
-}
 
 .clearfix{
   clear: both;
@@ -84,7 +81,7 @@ body{
 }
 
 .heading{
-  font-family: "museo-sans-condensed",sans-serif;
+  font-family: "atrament-web",sans-serif;
   font-size: 100px;
   margin-left: 5px;
   color: #4d4d4d;
@@ -100,7 +97,7 @@ body{
 }
 
 .logo{
-  width: 1200px;
+  float:left;
   height: 150px;
   position: relative;
   left: 115px;
@@ -117,7 +114,7 @@ body{
 
 .logo-text{
   float:left;
-  font-family: "museo-sans-condensed",sans-serif;
+  font-family: "atrament-web",sans-serif;
   font-size: 100px;
   margin-left: 5px;
 }
@@ -146,6 +143,8 @@ body{
   font-family: "kepler-std-subhead",serif;
   background-color:#f2f2f2;
   color: #4d4d4d;
+  padding-top:50px;
+  padding-bottom:30px;
 }
 
 .dictionary-pointer{
@@ -155,7 +154,7 @@ body{
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 20px solid #f2f2f2;
-  bottom:20px;
+  bottom:70px;
   left:170px;
 }
 
@@ -167,6 +166,7 @@ body{
 .dictionary-word{
   float:left;
   font-size: 120px;
+  line-height: 60px;
 }
 
 .dictionary-definition-container{
@@ -188,14 +188,11 @@ body{
   margin-right:auto;
   font-size: 80px;
   color: #73cf3b;
+
 }
 
 .dictionary-pronunciation{
-  position: relative;
-  float: left;
   font-size: 60px;
-  left: 37px;
-  top: 40px;
 }
 
 .dictionary-noun{
@@ -227,14 +224,17 @@ body{
   margin-left:120px;
   margin-right:120px;
   margin-bottom: 100px;
-  height: 100px;
+  height: 120px;
 }
 
 .we-do-what-section-icon{
   float:left;
-  width:100px;
   height:100px;
   margin-right: 30px;
+}
+
+.we-do-what-section-icon img{
+    width:50px;
 }
 
 .we-do-what-section-content-title{
