@@ -93,6 +93,11 @@ a:focus {
   }
 }
 
+a, a:hover, a:active, a:visited{
+  color: #73cf3b;
+  text-decoration: none;
+}
+
 /*
   header
 */
@@ -316,7 +321,17 @@ a:focus {
 }
 
 
-
+/*
+  keep in touch
+*/
+.keep-in-touch{
+  color: #4d4d4d;
+  font-family: "kepler-std-subhead",serif;
+  text-align: center;
+  font-size: 35px;
+  line-height: 50px;
+  margin-bottom: 100px;
+}
 
 
 
