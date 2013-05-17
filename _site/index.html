@@ -2,12 +2,15 @@
 <html>
 
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Radicle Design" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-	  <link href="images/favicon.png" rel="shortcut icon" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+    <link href="stylesheets/unsemantic-grid-responsive.css" rel="stylesheet" type="text/css">
+	  
+    <link href="images/favicon.png" rel="shortcut icon" />
 
     <title>Radicle, man.</title>
     <script type="text/javascript" src="//use.typekit.net/cbb6obg.js"></script>
@@ -30,32 +33,36 @@
   </head>
 
   <body>
-    
-  	<div class="header">
-  		<div class="logo">
-  			<img src="/images/radicle-icon.png" class="logo-icon"></img>
-  			<div class="logo-text">
-          <span class="logo-text-radicle">RADICLE</span><span class="logo-text-design">DESIGN</span>
+
+    <div id="heading" class="grid-container">
+      <div class="grid-20 mobile-grid-20">
+        <img src="/images/radicle-icon.png" class="logo-icon"></img>
+      </div>
+      <div class="grid-80 mobile-grid-80 grid-parent">
+        <div class="grid-100 hide-on-mobile">
+          <span class="logo-text logo-text-radicle">RADICLE</span>
+          <span class="logo-text logo-text-design">DESIGN</span>
         </div>
-  			<div class="logo-tagline">
+        <span class="mobile-grid-100 hide-on-desktop logo-text logo-text-radicle">RADICLE</span>
+        <span class="mobile-grid-100 hide-on-desktop logo-text logo-text-design">DESIGN</span>
+  			<div class="grid-100 logo-tagline hide-on-mobile">
           Up, up and to the right
         </div>
-  		</div>
-  	</div>
+      </div>
+    </div>
 
   	<div class="dictionary">
       <div class="dictionary-pointer"></div>
       <div class="dictionary-content">
-        <div class="dictionary-word">
+        <span class="dictionary-word">
           radicle
           <span class="dictionary-pronunciation">
             |radikəl|
           </span>
-          <span class="dictionary-noun">
-            <br/><br/>noun
-          </span>
-        </div>
-        <div class="clearfix"></div>
+        </span>
+        <span class="dictionary-noun">
+          <br/><br/>noun
+        </span>
         <div class="dictionary-definition-container">
           <div class="dictionary-definition">
             the first part of a seedling to emerge from a seed during 
@@ -64,10 +71,9 @@
             </span>
           </div>
         </div>
-        <div class="dictionary-example">
+        <div class="dictionary-example clearfix">
           "Radicle, man."
         </div>
-        <div class="clearfix"></div>
       </div>
   	</div>
 
@@ -75,54 +81,51 @@
       .............
     </div>
 
-  	<div class="we-do-what">
-    		<div class="center center-text heading">
+  	<div class="we-do-what grid-container">
+
+
+    		<div class="center center-text callout grid-100">
     			WE DO WHAT?
     		</div>
 
-    		<div class="we-do-what-section">
-          <div class="we-do-what-section-icon">
-            <img src="/images/phone-icon.png"></img>
-          </div>
-          <div class="we-do-what-section-content">
-            <div class="we-do-what-section-content-title">
-              Mobile development
-            </div>
-            <div class="we-do-what-section-content-wording">
-              Apps and sites for an ever-growing list of devices.
-            </div>
-          </div>
-    		</div>
-        <div class="clearfix"></div>
 
-        <div class="we-do-what-section">
-          <div class="we-do-what-section-icon">
-            <img src="/images/stack-icon.png"></img>
-          </div>
-          <div class="we-do-what-section-content">
-            <div class="we-do-what-section-content-title">
-              Full stack development
-            </div>
-            <div class="we-do-what-section-content-wording">
-              All the software solutions you need in a neat, little package.
-            </div>
-          </div>
-          <div class="clearfix"></div>
+        <div class="we-do-what-section-icon grid-10 prefix-10 mobile-grid-20">
+          <img src="/images/phone-icon.png"></img>
         </div>
-        <div class="we-do-what-section">
-          <div class="we-do-what-section-icon">
-            <img src="/images/paintbrush-icon.png"></img>
+        <div class="we-do-what-section-content grid-80 mobile-grid-80 grid-parent">
+          <div class="we-do-what-section-content-title grid-100 mobile-grid-100">
+            Mobile development
           </div>
-          <div class="we-do-what-section-content">
-            <div class="we-do-what-section-content-title">
-              Brand identity
-            </div>
-            <div class="we-do-what-section-content-wording">
-              From logo design to color scheming, we put a face to your business.
-            </div>
+          <div class="we-do-what-section-content-wording grid-100 mobile-grid-100">
+            Apps and sites for an ever-growing list of devices.
           </div>
-          <div class="clearfix"></div>
         </div>
+
+
+        <div class="we-do-what-section-icon grid-10 prefix-10 mobile-grid-20">
+          <img src="/images/stack-icon.png"></img>
+        </div>
+        <div class="we-do-what-section-content grid-80 grid-parent mobile-grid-80">
+          <div class="we-do-what-section-content-title grid-100 mobile-grid-100">
+            Full stack development
+          </div>
+          <div class="we-do-what-section-content-wording grid-100 mobile-grid-100">
+            All the software solutions you need in a neat, little package.
+          </div>
+        </div>
+
+        <div class="we-do-what-section-icon grid-10 prefix-10 mobile-grid-20">
+          <img src="/images/paintbrush-icon.png"></img>
+        </div>
+        <div class="we-do-what-section-content grid-80 grid-parent mobile-grid-80">
+          <div class="we-do-what-section-content-title grid-100 mobile-grid-100">
+            Brand identity
+          </div>
+          <div class="we-do-what-section-content-wording grid-100 mobile-grid-100">
+            From logo design to color scheming, we put a face to your business.
+          </div>
+        </div>
+
   		</div>
   	</div>
 
@@ -130,54 +133,60 @@
       .............
     </div>
 
-  	<div class="why-us">
-        <div class="center center-text heading">
-          WHY US?
+  	<div class="why-us grid-container">
+      <div class="grid-100 center-text callout">
+        WHY US?
+      </div>
+
+
+      <span class="prefix-10 grid-10 mobile-grid-15 why-us-section-number">
+        1
+      </span>
+      <div class="why-us-section grid-80 mobile-grid-85 grid-parent">
+        <div class="grid-100 mobile-grid-100 why-us-section-title">
+        Sow <span class="why-us-section-title-emphasis">SEEDS</span> of innovation.
         </div>
-        <div class="why-us-section">
-          <div class="why-us-section-title">
-            <span class="why-us-section-number">
-              1
-            </span>
-            Sow <span class="why-us-section-title-emphasis">SEEDS</span> of innovation.
-          </div>
-          <div class="why-us-section-content">
-            We take you from ideation to market entry.
-            <br/><br/>
-            We make dreams come true. 
-          </div>
+        <div class="grid-100 mobile-grid-100 why-us-section-content">
+          We take you from ideation to market entry.
+          <br/><br/>
+          We make dreams come true. 
         </div>
-        <div class="why-us-section">
-          <div class="why-us-section-title">
-            <span class="why-us-section-number">
-              2
-            </span>
-            Keep your wallet <span class="why-us-section-title-emphasis">GREEN</span>.
-          </div>
-          <div class="why-us-section-content">
-            We strip your idea down to the core and build the features that really matter. 
-            <br/><br/>
-            You save time and money.
-          </div>
+      </div>
+
+
+      <span class="prefix-10 grid-10 mobile-grid-15 why-us-section-number">
+        2
+      </span>
+      <div class="why-us-section grid-80 mobile-grid-85 grid-parent">
+        <div class="grid-100 mobile-grid-100 why-us-section-title">
+          Keep your wallet <span class="why-us-section-title-emphasis">GREEN</span>.
         </div>
-        <div class="why-us-section">
-          <div class="why-us-section-title">
-            <span class="why-us-section-number">
-              3
-            </span>
-            Empower future <span class="why-us-section-title-emphasis">GROWTH</span>.
-          </div>
-          <div class="why-us-section-content">
-            We build products on strong foundations, letting future developers and designers stand on our shoulders.
-          </div>
+        <div class="grid-100 mobile-grid-100 why-us-section-content">
+          We strip your idea down to the core and build the features that really matter. 
+          <br/><br/>
+          You save time and money.
         </div>
+      </div>
+
+
+      <span class="prefix-10 grid-10 mobile-grid-15 why-us-section-number">
+        3
+      </span>
+      <div class="why-us-section grid-80 mobile-grid-85 grid-parent">
+        <div class="grid-100 mobile-grid-100 why-us-section-title">
+          Empower future <span class="why-us-section-title-emphasis">GROWTH</span>.
+        </div>
+        <div class="grid-100 moblie-grid-100 why-us-section-content">
+          We build products on strong foundations, letting future developers and designers stand on our shoulders.
+        </div>
+      </div>
   	</div>
 
     <div class="center elipses down">
       .............
     </div>
 
-    <div class="center center-text heading">
+    <div class="center center-text callout">
       KEEP IN TOUCH
     </div>
     <div class="keep-in-touch">
