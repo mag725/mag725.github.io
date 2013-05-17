@@ -98,6 +98,21 @@ a, a:hover, a:active, a:visited{
   text-decoration: none;
 }
 
+.callout{
+  font-size: 100px;
+  font-family: "atrament-web",sans-serif;
+  text-align: center;
+  color: #4d4d4d;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .callout{
+    font-size: 55px;
+    margin-top: 25px;
+  }
+}
+
 /*
   header
 */
@@ -196,16 +211,38 @@ a, a:hover, a:active, a:visited{
   margin-right: 120px;
 }
 
+@media screen and (max-width: 767px) {
+  .dictionary-content{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
 .dictionary-word{
   float:left;
   font-size: 120px;
   line-height: 60px;
 }
 
+@media screen and (max-width: 767px) {
+  .dictionary-word{
+    font-size: 60px;
+    line-height: 30px;
+  }
+}
+
 .dictionary-definition-container{
   width:50%;
   height:138px;
 }
+
+@media screen and (max-width: 767px) {
+  .dictionary-definition-container{
+    width: auto;
+    height: auto;
+  }
+}
+
 
 .dictionary-definition{
   float:left;
@@ -215,17 +252,38 @@ a, a:hover, a:active, a:visited{
   line-height: 42px;
 }
 
+@media screen and (max-width: 767px) {
+  .dictionary-definition{
+    float: none;
+    font-size: 30px;
+    width: auto;
+    height: auto;
+  }
+}
+
+
 .dictionary-growth{
   text-align: center;
   margin-left:auto;
   margin-right:auto;
   font-size: 80px;
   color: #73cf3b;
+}
 
+@media screen and (max-width: 767px) {
+  .dictionary-growth{
+    font-size: 50px;
+  }
 }
 
 .dictionary-pronunciation{
   font-size: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .dictionary-pronunciation{
+    font-size: 30px;
+  }
 }
 
 .dictionary-noun{
@@ -235,10 +293,24 @@ a, a:hover, a:active, a:visited{
   font-size: 60px;
 }
 
+@media screen and (max-width: 767px) {
+  .dictionary-noun{
+    font-size: 30px;
+  }
+}
+
 .dictionary-example{
   font-size: 38px;
   margin-top: 100px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .dictionary-example{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
 }
 
 .dictionary .elipses{
@@ -253,21 +325,21 @@ a, a:hover, a:active, a:visited{
   we do what?
 */
 
-.we-do-what-section{
-  margin-left:120px;
-  margin-right:120px;
-  margin-bottom: 100px;
-  height: 120px;
-}
-
-.we-do-what-section-icon{
-  float:left;
-  height:100px;
-  margin-right: 30px;
+.we-do-what{
 }
 
 .we-do-what-section-icon img{
     width:50px;
+}
+
+@media screen and (max-width: 767px) {
+  .we-do-what-section-icon img{
+    width: 33px;
+  }
+}
+
+.we-do-what-section-content{
+  margin-bottom: 70px;
 }
 
 .we-do-what-section-content-title{
@@ -277,11 +349,26 @@ a, a:hover, a:active, a:visited{
   line-height: 50px;
 }
 
+@media screen and (max-width: 767px) {
+  .we-do-what-section-content-title{
+    font-size: 40px;
+    line-height: 35px;
+  }
+}
+
 .we-do-what-section-content-wording{
   color: #4d4d4d;
   font-family: "kepler-std-subhead",serif;
   font-size: 35px;
 }
+
+@media screen and (max-width: 767px) {
+  .we-do-what-section-content-wording{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+}
+
 
 
 /*
@@ -289,17 +376,22 @@ a, a:hover, a:active, a:visited{
 */
 
 .why-us-section{
-  color: #4d4d4d;
-  font-family: "kepler-std-subhead",serif;
-  margin-left:120px;
-  margin-right:120px;
-  margin-bottom: 200px;
-  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .why-us-section-title{
-    font-size: 70px;
-    line-height: 60px;
+  color: #4d4d4d;
+  font-size: 70px;
+  line-height: 60px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .why-us-section-title{
+    font-size: 40px;
+    line-height: 37px;
+    margin-bottom: 20px;
+  }
 }
 
 .why-us-section-title-emphasis{
@@ -313,13 +405,26 @@ a, a:hover, a:active, a:visited{
   font-size: 120px;
 }
 
-.why-us-section-content{
-  padding:75px;
-  color: #4d4d4d;
-  font-family: "kepler-std-subhead",serif;
-  font-size: 35px;
+@media screen and (max-width: 767px) {
+  .why-us-section-number{
+    font-size: 60px;
+    line-height: 55px;
+  }
 }
 
+.why-us-section-content{
+  color: #4d4d4d;
+  font-family: "kepler-std-subhead",serif;
+  font-size: 30px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .why-us-section-content{
+    font-size: 30px;
+    line-height: 33px;
+  }
+}
 
 /*
   keep in touch
@@ -331,6 +436,12 @@ a, a:hover, a:active, a:visited{
   font-size: 35px;
   line-height: 50px;
   margin-bottom: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .keep-in-touch{
+    font-size: 30px;
+  }
 }
 
 
