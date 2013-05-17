@@ -55,7 +55,6 @@ a:focus {
   styles
 *******************************/
 
-
 .clearfix{
   clear: both;
 }
@@ -388,6 +387,7 @@ a, a:hover, a:active, a:visited{
 
 @media screen and (max-width: 767px) {
   .why-us-section-title{
+    font-family: "kepler-std-subhead",serif;
     font-size: 40px;
     line-height: 37px;
     margin-bottom: 20px;
@@ -400,6 +400,7 @@ a, a:hover, a:active, a:visited{
 }
 
 .why-us-section-number{
+  font-family: "kepler-std-subhead",serif;
   z-index: -1000;
   color: #e6e6e6;
   font-size: 120px;
