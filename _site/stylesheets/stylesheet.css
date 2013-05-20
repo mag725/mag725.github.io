@@ -445,6 +445,67 @@ a, a:hover, a:active, a:visited{
   }
 }
 
+/*
+  blog
+*/
+
+.blog-post{
+  font-family: "kepler-std-subhead",serif;
+  color: #4d4d4d;
+}
+
+#post{
+  margin-top: 60px;
+  margin-left: 90px;
+  margin-right: 0;
+  margin-bottom: 150px;
+}
+
+@media screen and (max-width: 767px) {
+  #post{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+.blog-post h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .blog-post h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
+
+.blog-post em{
+  font-style: italic;
+}
+
+.blog-post p{
+  margin-bottom: 25px;
+  color: #696969;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.blog-post h3{
+  font-size: 35px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.blog-post h4{
+  font-size: 29px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
 
 
 
