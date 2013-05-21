@@ -65,6 +65,8 @@ a:focus {
 }
 
 .elipses.down{
+  position: relative;
+  bottom: 10px;
   width: 1px;
   word-wrap:break-word;
   line-height: 20px;
@@ -112,6 +114,26 @@ a, a:hover, a:active, a:visited{
   }
 }
 
+.spacer-35-vertical{
+  height: 35px;
+  width: 100%;
+}
+
+.spacer-70-vertical{
+  height: 70px;
+  width: 100%;
+}
+
+.spacer-100-vertical{
+  height: 100px;
+  width: 100%;
+}
+
+.spacer-200-vertical{
+  height: 200px;
+  width: 100%;
+}
+
 /*
   header
 */
@@ -141,7 +163,7 @@ a, a:hover, a:active, a:visited{
   float:left;
   font-family: "atrament-web",sans-serif;
   font-size: 100px;
-  margin-left: 5px;
+  margin-left: 20px;
   line-height: 90px;
 }
 
@@ -151,6 +173,7 @@ a, a:hover, a:active, a:visited{
     line-height:45px;
     margin-top: 10px;
     margin-bottom: -10px;
+    margin-left: 15px;
   }
 }
 
@@ -166,15 +189,7 @@ a, a:hover, a:active, a:visited{
   color: #73cf3b;
   font-family: "kepler-std-subhead",serif;
   font-size: 45px;
-}
-
-@media screen and (max-width: 767px) {
-  .logo-tagline{
-    margin-top: 120px;
-    margin-bottom: 20px;
-    font-size: 30px;
-    text-align: center
-  }
+  margin-left: 20px;
 }
 
 /*
@@ -230,21 +245,7 @@ a, a:hover, a:active, a:visited{
   }
 }
 
-.dictionary-definition-container{
-  width:50%;
-  height:138px;
-}
-
-@media screen and (max-width: 767px) {
-  .dictionary-definition-container{
-    width: auto;
-    height: auto;
-  }
-}
-
-
 .dictionary-definition{
-  float:left;
   font-size: 38px;
   width: 400px;
   height: 138px;
@@ -260,8 +261,15 @@ a, a:hover, a:active, a:visited{
   }
 }
 
+.dictionary-definition-main{
+  line-height: 42px !important;
+}
+
 
 .dictionary-growth{
+  position: relative;
+  bottom: 70px;
+  left: 110px;
   text-align: center;
   margin-left:auto;
   margin-right:auto;
@@ -271,6 +279,7 @@ a, a:hover, a:active, a:visited{
 
 @media screen and (max-width: 767px) {
   .dictionary-growth{
+    position: static;
     font-size: 50px;
   }
 }
@@ -300,7 +309,7 @@ a, a:hover, a:active, a:visited{
 
 .dictionary-example{
   font-size: 38px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -314,10 +323,6 @@ a, a:hover, a:active, a:visited{
 
 .dictionary .elipses{
   overflow: hidden;
-}
-
-.dictionary .elipses.down{
-  position:absolute;
 }
 
 /*
@@ -335,10 +340,6 @@ a, a:hover, a:active, a:visited{
   .we-do-what-section-icon img{
     width: 33px;
   }
-}
-
-.we-do-what-section-content{
-  margin-bottom: 70px;
 }
 
 .we-do-what-section-content-title{
@@ -374,14 +375,9 @@ a, a:hover, a:active, a:visited{
   why us?
 */
 
-.why-us-section{
-  margin-bottom: 100px;
-}
-
 .why-us-section-title{
   color: #4d4d4d;
   font-size: 70px;
-  line-height: 60px;
 }
 
 
