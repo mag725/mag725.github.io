@@ -3,14 +3,35 @@
 	  <a href="{{ site.url }}/"><img src="/images/radicle-icon.png" class="logo-icon"></img></a>
 	</div>
 	<div class="grid-85 mobile-grid-80 grid-parent">
-	  <div class="grid-100 hide-on-mobile">
-	    <span class="logo-text logo-text-radicle">RADICLE</span>
-	    <span class="logo-text logo-text-design">DESIGN</span>
+
+	  <!--
+		desktop header
+	  -->
+	  <div class="logo-text grid-100 hide-on-mobile">
+	   	{% if page.subhead %}
+		    <a href="{{ site.url }}/"><h1 class="logo-text-radicle">RADICLE</h1>
+		    <h1 class="logo-text-design">DESIGN</h1></a>
+	  		<h1 class="logo-text-subhead">/{{ page.subhead }}</h1>
+	  	{% else %}
+			<h1 class="logo-text-radicle">RADICLE</h1>
+		    <h1 class="logo-text-design">DESIGN</h1>
+	  	{% endif %}
 	  </div>
-	  <span class="mobile-grid-100 hide-on-desktop logo-text logo-text-radicle">RADICLE</span>
-	  <span class="mobile-grid-100 hide-on-desktop logo-text logo-text-design">DESIGN</span>
 	  <div class="grid-100 logo-tagline hide-on-mobile">
 	    Up, up and to the right
 	  </div>
+
+	  <!--
+		mobile header
+	  -->
+	  {% if page.subhead %}
+		  <a href="{{ site.url }}/"><h1 class="mobile-grid-100 hide-on-desktop logo-text logo-text-radicle">RADICLE</h1>
+		  <h1 class="mobile-grid-100 hide-on-desktop logo-text logo-text-design">DESIGN</h1></a>	  	
+	  	<h1 class="mobile-grid-100 hide-on-desktop logo-text logo-text-subhead">/{{ page.subhead }}</h1>
+	  {% else %}
+		<h1 class="mobile-grid-100 hide-on-desktop logo-text logo-text-radicle">RADICLE</h1>
+		<h1 class="mobile-grid-100 hide-on-desktop logo-text logo-text-design">DESIGN</h1>
+	  {% endif %}
+
 	</div>
 </div>

@@ -1,7 +1,21 @@
 ---
 layout: default
+subhead: BLOG
 ---
 
 <div id="post" class="blog-post grid-container">
-	<div class="prefix-20 grid-60 suffix-20 mobile-grid-100">{{ content }}</div>
+	<div class="prefix-15 grid-60 suffix-25 mobile-grid-100">
+		{% if page.blog_title or page.title %}
+		<h1>{% if page.blog_title %}
+			{{ page.blog_title }}
+			{% else %}
+			{{ page.title }}
+			{% endif %}
+			{% if page.author && page.date %}
+			<span class="blog-post-info clearfix">{{ page.author }}/{{ page.date | date: "%B %d, %Y" }}</span>
+			{% endif %}
+		</h1>
+		{% endif %}
+		{{ content }}
+	</div>
 </div>

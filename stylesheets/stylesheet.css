@@ -177,18 +177,43 @@ a, a:hover, a:active, a:visited{
   }
 }
 
-.logo-text.logo-text-radicle{
+.logo-text h1{
+  display: inline;
+  margin-right: -15px;
+}
+
+.logo-text a:hover h1{
+  color: #ff9100 !important;
+}
+
+a:hover h1.logo-text{
+  color: #ff9100 !important;
+}
+
+.logo-text-radicle{
   color: #73cf3b;
 }
 
-.logo-text.logo-text-design{
+.logo-text-design{
   color: #4d4d4d;
+}
+
+.logo-text-subhead{
+  color: #ff9100;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo-text-subhead{
+    font-size: 30px;
+  }
 }
 
 .logo-tagline{
   color: #73cf3b;
   font-family: "kepler-std-subhead",serif;
-  font-size: 45px;
+  font-style: italic;
+  font-size: 40px;
   margin-left: 20px;
 }
 
@@ -452,7 +477,7 @@ a, a:hover, a:active, a:visited{
 
 #post{
   margin-top: 60px;
-  margin-left: 90px;
+  margin-left: 110px;
   margin-right: 0;
   margin-bottom: 150px;
 }
@@ -464,7 +489,7 @@ a, a:hover, a:active, a:visited{
   }
 }
 
-.blog-post h2{
+.blog-post h1{
   font-size: 50px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -501,6 +526,15 @@ a, a:hover, a:active, a:visited{
   margin-bottom: 5px;
 }
 
+.blog-post-info{
+  white-space:nowrap;
+  border-radius: 5px;
+  background-color: #73cf3b;
+  color: #fff;
+  font-size: 15px;
+  padding: 2px 4px;
+  margin-bottom: 10px;
+}
 
 
 
