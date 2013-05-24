@@ -54,6 +54,10 @@ a:focus {
 /******************************
   styles
 *******************************/
+html,body
+{
+    overflow-x: hidden; 
+}
 
 .clearfix{
   clear: both;
@@ -527,6 +531,7 @@ a:hover h1.logo-text{
 }
 
 .blog-post-info{
+  display: inline-block;
   white-space:nowrap;
   border-radius: 5px;
   background-color: #73cf3b;
