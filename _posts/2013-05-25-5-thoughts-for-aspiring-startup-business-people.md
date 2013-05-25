@@ -22,9 +22,9 @@ So find something seemingly cold, a niche market, and then test the waters. It m
 
 ### 3. Have goals
 
-It's _insanely_ tempting the just start building stuff, especially if you are starting a technical company.
+It's _insanely_ tempting the just start building stuff, especially if you are starting a technical company (where the startup costs are low).
 
-This is bad, because you blaze an ambling trail that has no apparent end. Eventually you end up way out in the boonies, lacking direction. If you identify some really basic long term (say 90 days) and short term (a week / 2 weeks out) goals, you will at least know when you are lost.
+This is bad, because you blaze an ambling trail that has no end. You will continue to aim for perfection and (naturally) never achieve it. Set specific, measurable milestones and hold yourself to them.
 
 ### 4. Meet people
 
