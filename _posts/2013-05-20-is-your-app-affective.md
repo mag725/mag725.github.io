@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Radicle Design - Is your app affective?"
+title: "Is your app affective?"
 blog_title:  "Is your app <em>affect</em>ive?"
 date:   2013-05-22
 author: Matthew Gilk

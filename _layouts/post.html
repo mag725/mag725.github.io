@@ -16,10 +16,28 @@ subhead: BLOG
 			{% endif %}
 		</h1>
 		{% endif %}
+
 		{{ content }}
+
+		<div class="spacer-70-vertical grid-100 hide-on-mobile"></div>
+		<div class="spacer-35-vertical mobile-grid-100 hide-on-desktop"></div>
+
+		<div class="share-widget grid-100 mobile-grid-100 grid-parent">
+			Share via 
+			<a class="share-link" href="https://twitter.com/share?text={{ page.title }}&url=http%3A%2F%2Fradicledesign.com{{ page.url | UrlEncode }}" target="_blank">
+				<img src="{{ site.url }}/images/twitter-icon-tiny.png"/>
+			</a>
+			/
+			<a class="share-link" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fradicledesign.com{{ page.url }}" target="_blank">
+				<img src="{{ site.url }}/images/facebook-icon-tiny.png"/>
+			</a>
+		</div>
+
 	</div>
+
 	<div class="spacer-70-vertical grid-100 hide-on-mobile"></div>
 	<div class="spacer-35-vertical mobile-grid-100 hide-on-desktop"></div>
+
 	<div class="prefix-15 grid-60 suffix-25 mobile-grid-100" id="disqus_thread"></div>
 </div>
 

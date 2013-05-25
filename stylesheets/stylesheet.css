@@ -138,6 +138,10 @@ a, a:hover, a:active, a:visited{
   width: 100%;
 }
 
+.icon-20-constrain-vertical{
+  height: 25px;
+}
+
 /*
   header
 */
@@ -541,7 +545,19 @@ a:hover h1.logo-text{
   margin-bottom: 10px;
 }
 
+/*
+  social sharing
+*/
 
+.share-widget{
+  font-size: 40px;
+  color: #4d4d4d;
+  margin-bottom: 25px;
+}
+
+.share-link{
+  font-size: 30px;
+}
 
 
 
