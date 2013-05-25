@@ -6,7 +6,7 @@ author: Matthew Gilk
 categories: blog
 ---
 
-I know that everybody and there dog has written a "10 small business tips" or "Be the next bazillion-dollar company guy in 3 easy steps!" blog posts, but in today's post, I will shamelessly assert that _my_ cool-awesome blog post about the same thing is way better.
+I know that everybody and their dog has written a "10 small business tips" or "Be the next bazillion-dollar company guy in 3 easy steps!" blog posts, but in today's post, I will shamelessly assert that _my_ cool-awesome blog post about the same thing is way better.
 
 After reading this post, I will have you thinking, "Wow, that _was_ 5 things!".
 
