@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5 Thoughts for Aspiring Startup/Business People
+title: 5 Thoughts for Aspiring Startup / Business People
 date:   2013-05-25
 author: Matthew Gilk
 categories: blog
